@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 5% 10%;
+    background: linear-gradient(120deg, #f1fff8, #ffffff);
+}
+
+.welcome-message h1 {
+    font-size: 3.5rem;
+    color: #21a341;
+}
+
+.welcome-message h1 span {
+    font-weight: 600;
+    color: #14852a;
+}
+
+.navigation-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-options ul li {
+    margin: 25px 0;
+    transition: transform 0.2s;
+}
+
+.navigation-options ul li:hover {
+    transform: scale(1.05);
+}
+
+.navigation-options ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    color: #21a341;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(33, 163, 65, 0.1);
+    transition: all 0.2s;
+}
+
+.navigation-options ul li a i {
+    margin-right: 15px;
+}
+
+.navigation-options ul li a:hover {
+    background-color: #21a341;
+    color: #ffffff;
+}
+
+/* Replace below with actual icons you'll use or a library like Font Awesome */
+.icon-calendar, .icon-search, .icon-tag, .icon-check, .icon-close, .icon-alert {
+    width: 24px;
+    height: 24px;
+    background-color: #21a341;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 50%;
+}

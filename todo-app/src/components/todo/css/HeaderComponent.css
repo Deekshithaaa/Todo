@@ -1,0 +1,31 @@
+.header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.link-text {
+    text-decoration: none;
+    color: #4CAF50; /* green color for the text */
+    font-size: 16px;
+    transition: color 0.2s, background-color 0.2s;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.link-text:hover {
+    color: white;
+    background-color: #4CAF50; /* green background on hover */
+}
+
+.bg-green {
+    background-color: white;
+}
+
+.py-3 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.ml-3 {
+    margin-left: 16px;
+}

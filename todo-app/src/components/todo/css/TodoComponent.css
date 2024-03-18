@@ -1,0 +1,129 @@
+.funky-form-container {
+    background-color: #f1fff8; /* Light green background */
+    border-radius: 20px;  /* Increased border-radius for a softer look */
+    box-shadow: 6px 6px 25px rgba(128, 128, 128, 0.4); /* Made the shadow slightly bigger */
+    padding: 40px 20px;  /* Increased horizontal padding for larger screens */
+}
+
+.funky-heading {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2.8rem;  /* Slightly larger font size */
+    color: #179830;    /* A shade different green for better contrast */
+    text-align: center;  /* Centered the heading */
+    margin-bottom: 20px;  /* Added some margin to the bottom for space */
+}
+
+.funky-form {
+    background-color: #f9f9f9; /* Slightly off-white for a softer look */
+    border-radius: 20px;  /* Matched border-radius with container */
+    padding: 25px;   /* Added more padding for a spacious feel */
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.2);  /* Made the shadow subtle */
+}
+
+.funky-group label {
+    display: block;
+    font-weight: bold;
+    color: #179830;  /* Consistent green shade */
+    margin-bottom: 8px;  /* Increased the margin for better spacing */
+}
+
+.funky-input {
+    width: 100%;
+    padding: 12px;  /* Increased padding for a comfortable input */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;  /* Rounded corners more */
+    transition: border-color 0.3s, box-shadow 0.3s;  /* Added transition for box-shadow */
+}
+
+.funky-input:focus {
+    border-color: #179830; /* Consistent green shade */
+    outline: none;
+    box-shadow: 0 0 5px rgba(23, 152, 48, 0.5);  /* Added a soft glow on focus */
+}
+
+.funky-btn-container {
+    text-align: center;
+    margin-top: 20px; /* Added some space above the button */
+}
+
+.funky-btn {
+    padding: 12px 25px; /* More padding for a bigger button feel */
+    background-color: #179830; /* Consistent green shade */
+    color: #ffffff; /* Pure white color for contrast */
+    border: none;
+    border-radius: 30px; /* Made the button more rounded */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Added transition for a slight scale on hover */
+}
+
+.funky-btn:hover {
+    background-color: #0e6a23; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly scale the button to give it a "pop" feel on hover */
+}
+
+.navigation {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.back-link {
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #4CAF50; /* green theme */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.back-link:hover {
+    background-color: #4CAF50; /* green theme */
+    color: white;
+}
+
+
+
+.back-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green color for the button */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.back-btn:hover {
+    background-color: #388E3C; /* Darker shade of green for hover effect */
+}
+
+.back-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Green glow when the button is focused */
+}
+
+.remove-btn {
+    font-size: 0.8rem;            /* Smaller font size */
+    padding: 4px 8px;            /* Padding around the button */
+    margin-left: 10px;           /* Margin to separate it from the file input */
+    background-color: #388E3C;   /* Red background color */
+    color: white;                /* White text color */
+    border: none;                /* No border */
+    border-radius: 4px;          /* Rounded corners */
+    cursor: pointer;             /* Hand cursor on hover */
+    transition: background-color 0.3s; /* Smooth background-color transition */
+}
+
+.remove-btn:hover {
+    background-color: #388E3C;   /* Slightly darker red on hover */
+}
+
+.remove-btn:focus {
+    outline: none;               /* Remove default focus outline */
+}

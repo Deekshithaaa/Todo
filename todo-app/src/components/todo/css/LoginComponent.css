@@ -1,0 +1,84 @@
+.Login {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    max-width: 400px; /* Control the width of the login box */
+    margin: 50px auto; /* Center the box with some spacing at the top and bottom */
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 40px 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.Login h1 {
+    color: #21a341; /* Green color */
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.errorMessage {
+    background-color: #ffe5e5; /* Light red for error */
+    border-left: 4px solid #d9534f; /* Red border for emphasis */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.LoginForm {
+    margin-top: 20px;
+}
+
+.LoginForm div {
+    margin-bottom: 20px;
+}
+
+.LoginForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #21a341; /* Green color */
+}
+
+.LoginForm input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: border-color 0.2s;
+}
+
+.LoginForm input:focus {
+    border-color: #21a341; /* Green color on focus */
+    outline: none;
+}
+
+.LoginForm button {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #21a341; /* Green background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.LoginForm button:hover {
+    background-color: #179830; /* Darker green on hover */
+}
+
+.LoginForm p {
+    text-align: center;
+    color: #666666;
+}
+
+.LoginForm p a {
+    color: #21a341; /* Green link */
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.LoginForm p a:hover {
+    color: #179830; /* Darker green on hover */
+}
